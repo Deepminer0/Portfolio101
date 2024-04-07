@@ -1,0 +1,1645 @@
+
+/* Google Font */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* ----------------------------------------------------------BOX 1---------------------------------------------------------------- */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
+body{
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    min-height: 290vh;
+    font-family: Montserrat;
+   background-image: url(Image/banner22.jpg) ;
+    
+}
+#fcontainer{
+   position: relative;
+    display: flex;
+    justify-content: flex-end;
+    height: 40vh;
+    background-image: linear-gradient(to right, rgb(0, 0, 0), #9411d5);
+    flex-wrap: wrap;
+    object-fit: cover;
+    align-items: center;
+    justify-content: center;
+    background-color: #000;
+}
+
+.clock {
+  position: absolute;
+ top: 50%;
+ left: 50%;
+  transform: translateX(-50%) translateY(-50%);
+  color: #ffffff;
+  font-size: 15px;
+  letter-spacing: 7px;
+ 
+
+
+}
+
+.reliable{
+  color: rgb(255, 255, 255);
+  text-align: right;
+  margin-left: 73.5%;
+  margin-top: -1%;
+  font-size: 29px;
+  font-weight: 100;
+  position: absolute;
+}
+.reliablebio{
+  color: rgb(255, 255, 255);
+  text-align: right;
+  margin-left: 73.5%;
+  margin-top: 4%;
+  font-size: 8px;
+  font-weight: 100;
+  position: absolute;
+}
+.opacitytext{
+  font-size:150px;
+  color: black;
+  opacity: 0.1;
+  font-weight: 500;
+  margin-top: -2%;
+  margin-right: 45%;
+  position: absolute;
+}
+
+.profilewings{
+height:180px;
+margin-left: -85%;
+margin-top: -55px;
+opacity: 0.9;
+
+}
+
+.Profile{
+  background: rgba(15, 28, 63, 0.125);
+  border-radius:50%;
+  height: 5em;
+  object-fit: cover;
+  width: 5em;
+  margin-right:85%;
+  display: flex;
+  margin-top: -3%;
+  position:absolute;
+}
+
+.folio{
+  margin-right: 85%;
+  color: rgb(255, 255, 255);
+  margin-top: 7%;
+  font-size: 18px;
+  font-weight: 500;
+  display: flex;
+  position:absolute;
+  margin-left: 5px;
+}
+.bio{
+  margin-right: 85%;
+  color: rgb(92, 92, 92);
+  margin-top: 10%;
+  font-size: 10px;
+  font-weight: 600;
+  display: flex;
+  position:absolute;
+}
+
+.newbanner{
+  /* background-image: url("upper-banner.jpg"); */
+  background-color: #55087c;
+  height: 25vh;
+  width: 96%;
+  border: 1px solid #630c8f;
+  border-radius: 15px 15px;
+  display: flex;
+ position: absolute;
+ margin-left: 2%;
+ margin-top: 1%;
+}
+.bannertext{
+  color: white;
+  font-size: 13px;
+  margin-left: 2%;
+  margin-top: 2%;
+  display: flex;
+  position: absolute;
+}
+.bannertext2{
+  color: rgb(255, 255, 255);
+  font-size: 9px;
+  margin-left: 2%;
+  margin-top: 3.8%;
+  display: flex;
+  position: absolute;
+  font-weight: 100;
+}
+.bannertext3{
+  
+  font-style: italic;
+
+  display: flex;
+  
+  transform: translate(-50%,-50%);
+    margin-left: 78%;
+    margin-top: 55px;
+    position: absolute;
+    font-family:unset;
+    letter-spacing:5px;
+    font-size:50px;
+    font-weight: 30;
+    background-image: linear-gradient(
+   to right,
+   #462523 0,
+          #cb9b51 22%, 
+   #f6e27a 45%,
+   #f6f2c0 50%,
+   #f6e27a 55%,
+   #cb9b51 78%,
+   #462523 100%
+   );
+    color:transparent;
+    -webkit-background-clip:text;
+
+}
+.bannertext4{font-style: italic;
+
+  display: flex;
+  
+  transform: translate(-50%,-50%);
+    margin-left: 78%;
+    margin-top: 95px;
+    position: absolute;
+    font-family:unset;
+    letter-spacing:5px;
+    font-size:10px;
+    font-weight: 500;
+    background-image: linear-gradient(
+   to right,
+   #462523 0,
+          #cb9b51 22%, 
+   #f6e27a 45%,
+   #f6f2c0 50%,
+   #f6e27a 55%,
+   #cb9b51 78%,
+   #462523 100%
+   );
+    color:transparent;
+    -webkit-background-clip:text;
+
+
+
+}
+
+
+a.explore{
+  text-decoration: none;
+  color: white;
+  display: flex;
+  position: absolute;
+  border: 1px;
+  border-radius: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.125);
+  height: 22px;
+  width: 100px;
+ 
+padding-left: 15px;
+padding-top: 4px;
+  margin-top: 8%;
+  margin-left: 1.8%;
+  font-size: 10.5px;
+
+}
+a.explore:hover{
+  box-shadow: 0px 15px 40px 5px #2c073f;
+  cursor: pointer;
+  transform: translateY(-10px);
+  border: px solid rgb(247, 247, 247);
+  background-image: url(Image/banner1.jpg);
+  transition: 0.9s;
+  opacity: 0.5;
+  display: flex;
+
+  position: absolute;
+}
+
+
+/* ----------------------------------------------------------BOX 2---------------------------------------------------------------- */
+
+
+/* ----------------------------------------------------------DIV 3 start---------------------------------------------------------------- */
+.container2{
+    display: flex;
+    height: 28vh;
+    margin-top: 19px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+  display: flex;
+  align-items: center;
+  width: 65px;
+  height: 65px;
+  border-radius: 12px 12px ;
+  background-color:#2c073f;
+  margin: 40px;
+  margin-top: 5.8%;
+  -webkit-box-shadow: 0px 0px 0px #b8b9be;
+  position: relative;
+ 
+}
+.container:hover {
+  box-shadow: 0px 15px 40px 5px #2c073f;
+  cursor: pointer;
+  transform: translateY(-5px);
+  /* border: 2px solid rgb(247, 247, 247); */
+
+  transition: 0.9s;
+  /* opacity: 0.5; */
+}
+
+
+.Music{
+  text-decoration: none;
+  font-family:sans-serif;
+  font-size:35px;
+  margin-left: 25%;
+  color: rgb(206, 200, 200);
+
+}
+/* SPOTIFY */
+.spotify{
+  height: 45px;
+  margin-top: -35%;
+  margin-left: -8.1%;
+  display: flex;
+  position: absolute;
+  filter: invert(48%) sepia(730%) saturate(8207%) hue-rotate(130deg) brightness(100%) contrast(80%);
+}
+.spotify:hover{
+  filter: invert(48%) sepia(130%) saturate(7207%) hue-rotate(130deg) brightness(195%) contrast(80%);
+
+}
+
+/* SNAPCHAT */
+.snapchat{
+  height: 45px;
+  margin-top: -35%;
+  margin-left: 15.2%;
+  display: flex;
+  position: absolute;
+  filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(1130deg)  brightness(95%) contrast(80%);
+}
+.snapchat:hover{
+  filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(1130deg)  brightness(195%) contrast(80%);
+}
+
+/* WEBSITE */
+.websitelogo{
+  height: 45px;
+  margin-top: -35%;
+  margin-left: 15.2%;
+  display: flex;
+  position: absolute;
+  filter: invert(48%) sepia(250%) saturate(4207%) hue-rotate(3820deg)  brightness(80%) contrast(80%);
+}
+.websitelogo:hover{
+  filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3820deg)  brightness(150%) contrast(80%);
+}
+
+/* YOUTUBE */
+.youtube{
+    height: 50px;
+    margin-top: -3%;
+    margin-left: 12%;
+    display: flex;
+    position: absolute;
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3211deg)  brightness(55%) contrast(80%);
+  }
+  .youtube:hover{
+    /* filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3830deg)  brightness(195%) contrast(80%); change logo in white color/ */
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3211deg)  brightness(90%) contrast(80%);
+  }
+
+  /* TOTOLIST */
+  .todolist{
+    height: 45px;
+    margin-top: -3%;
+    margin-left: 16%;
+    display: flex;
+    position: absolute;
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3511deg)  brightness(55%) contrast(80%);
+  }
+  .todolist:hover{
+  
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3511deg)  brightness(95%) contrast(80%);
+  }
+
+
+/* LANGUAGE */
+.learnlanguage{
+  
+    height: 40px;
+    margin-top: -3%;
+    margin-left: 19%;
+    display: flex;
+    position: absolute;
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3770deg)  brightness(55%) contrast(80%);
+  }
+  .learnlanguage:hover{
+  filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3770deg)  brightness(95%) contrast(80%);
+  }
+/* GOOGLEDRIVE */
+  .googledrive{
+    height: 40px;
+    margin-top: -3%;
+    margin-left: 19%;
+    display: flex;
+    position: absolute;
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3358deg)  brightness(95%) contrast(80%);
+  }
+  .googledrive:hover{
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(3358deg)  brightness(195%) contrast(80%);
+  }
+  
+  /* PROJECT */
+  .Project{
+    height: 47px;
+    margin-top: 3%;
+    margin-left: 16%;
+    display: flex;
+    position: absolute;
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(758deg)  brightness(55%) contrast(80%);
+  }
+  .Project:hover{
+    filter: invert(48%) sepia(130%) saturate(4207%) hue-rotate(758deg)  brightness(95%) contrast(80%);
+  }
+/* ----------------------------------------------------------DIV 3 end---------------------------------------------------------------- */
+
+ /* -----------------------------------------------Tab Resume start---------------------------------------------- */
+  .tabs {
+    display: flex;
+    flex-direction: column;
+    max-width: 850px;
+    width: 100%;
+    margin-top: 17.4%;
+    margin-left: 18.2%;
+    justify-content: space-around;
+    position: absolute;
+  }
+
+  
+  .tabs__head {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #fff;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.1);
+    border-radius: 30px;
+    padding: 10px 5px;
+    margin-bottom: 20px;
+    
+  }
+  
+  .tabs__toggle {
+    margin: 0 5px;
+    padding: 7px 25px;
+    background: #fff;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .tabs__name {
+    font-weight: 500;
+    font-size: 14px;
+   color: #000;
+}
+  
+  .tabs__body {
+    background: #fff;
+    box-shadow: 0px 4px 5px rgba(0,0,0,.1);
+    border-radius: 25px;
+    padding: 30px;
+    position: relative;
+    height: 400px;
+  }
+  
+
+  
+  .tabs__content {
+    display: none;
+  }
+  
+  .tabs__toggle.is-active {
+    background: #e7eef8;
+  }
+  
+  .tabs__toggle.is-active .tabs__name {
+    color: #2a61d8;
+  }
+  
+  .tabs__content.is-active {
+    display: block;
+  }
+
+
+.wave-line{
+  width: 100%;
+  position: relative;
+  top: 43%;
+  left: 0;
+  transform: translateY(-50%);
+  z-index: -1;
+}
+
+.wave-line.line{
+  position: absolute;
+  width: 100%;
+  height: 130px;
+}
+.wave-line.line1{
+  background: url(Image/waveline1.png) repeat-x;
+  background-size: contain;
+  animation:  30s linear infinite;
+}
+.wave-line.line2{
+  background: url(Image/waveline2.png) repeat-x;
+  background-size: contain;
+  animation:  30s linear infinite;
+}
+.wave-line.line3{
+  background: url(Image/waveline3.png) repeat-x;
+  background-size: contain;
+  animation:  30s linear infinite;
+}
+@keyframes lineOne {
+  50%{
+    background-position: -150% 0;
+  }
+}
+@keyframes lineOne{
+  50%{
+    background-position: -100% 0;
+   
+  }
+}
+@keyframes lineOne{
+  50%{
+    background-position: 150% 0;
+  }
+}
+/* ----------------------------------------------------------Tab resume end----------------------------- */
+  
+  /* <!-- --------------------ABOUTME  start-------------------------------- --> */
+  .circle {
+    background: rgba(15, 28, 63, 0.125);
+    border-radius: 50%;
+    height: 8em;
+    object-fit: cover;
+    width: 8em;
+    margin-left: 30px;
+    margin-top: -50px;
+    display: flex;
+    margin-top: -30%;
+   
+  }
+
+  .Aboutsection{
+    color: #630c8f;
+    margin-top: 20px;
+    margin-left: 10px;
+
+  }
+
+  .Aboutsection2{
+    color: #5c5858;
+    margin-top: 2px;
+    margin-left: 10px;
+    font-size: small;
+    font-weight: 500;
+
+  }
+
+  .Aboutsection3{
+    color: #5c5858;
+    margin-top: 50px;
+    margin-left: 10px;
+    font-size: 12px;
+    font-weight: 500;
+
+  }
+  a.downloadcv{
+    text-decoration:none;
+    border: 1px solid rgb(95, 14, 75);
+    border-radius: 17px 17px;
+    display:block;
+    margin-top: 1%;
+    width: 15%;
+    color:white ;
+    background-color: #630c8f;
+    font-size: 14px;
+    text-align: center;
+    height: 25px;
+    padding: 2px;
+    margin-left: 1px;
+    
+    
+  }
+  a.downloadcv:hover{
+    color: #630c8f;
+    background-color: #ffaa00;
+    transition: 0.3s;
+    border: none;
+    font-weight: 800;
+    font-size: 14px;
+    
+  }
+  .myself{
+    color: #5f0d70;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500px;
+    margin-right: 40%;
+  }
+  .Introduction{
+    color: #aaa6a6;
+    font-size: 11px;
+    margin-left: 50%;
+    margin-top: 1%;
+    font-weight: 450;
+    position: relative;
+  }
+  .essence{
+    color: #5f0d70;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500px;
+    margin-right: 43.5%;
+  }
+  .essencenote{
+    color: #aaa6a6;
+    font-size: 11px;
+    margin-left: 50%;
+    margin-top: 1%;
+    font-weight: 450;
+    position: relative;
+  }
+  .qoute{
+    color: #5f0d70;
+    margin-top: 20px;
+    text-align: right;
+    font-size: 12px;
+    font-weight: 500px;
+    margin-right: 45%;
+  }
+  .quoteword{
+    color: #aaa6a6;
+    font-size: 11px;
+    margin-left: 50%;
+    margin-top: 1%;
+    font-weight: 450;
+    position: relative;
+  }
+/* <!-- ----------------------------------------ABOUTME end -------------------------------- --> */
+
+/* ----------------------------------Academics start---------------------------------- */
+.Programming{
+  color: #5f0d70;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500px;
+  text-align: left;
+}
+.School{
+  color: #5f0d70;
+    margin-top: 20px;
+    font-size: 12px;
+    font-weight: 500px;
+  }
+ .mbns{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: -2%;
+  margin-left: 9%;
+ } 
+ .collage{
+  color: #5f0d70;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500px;
+ }
+ .Shakya{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: -2%;
+  margin-left: 9%;
+ }
+ .University{
+  color: #5f0d70;
+  margin-top: 20px;
+  font-size: 12px;
+  font-weight: 500px;
+ }
+ .AIMT{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: -2%;
+  margin-left: 9%;
+ }
+
+ /*-------------------------------------------------Academics end----------------------------------*/
+
+
+
+ /*<!-- --------------------------------------------skills start--------------------------------------- --> */
+
+ /* C language skillbar */
+ .C{
+ 
+  margin-top: 30px;
+  font-size: 12px;
+  font-weight: 500px;
+ }
+ .C{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1.5%;
+
+ }
+ .skillbar {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills  {
+  height: 10px;
+}
+
+.Clanguage {
+  width: 20%; background-color: #5f0d70;
+}
+
+/* Python language skill bar */
+.Python{
+  font-size: 12px;
+  font-weight: 500px;
+ }
+ .Python{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar2 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills2  {
+  height: 10px;
+}
+
+.Pythonlanguage {
+  width: 50%; background-color: #5f0d70;
+}
+
+/* Web Development Skillbar */
+
+.Web{
+  font-size: 12px;
+  font-weight: 500px;
+ }
+ .Web{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar3 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills3 {
+  height: 10px;
+}
+
+.Website {
+  width: 77%; background-color: #5f0d70;
+}
+
+/* Graphics Design */
+.Designer{
+  color: #5f0d70;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500px;
+  text-align: left;
+}
+/* Figma */
+.Figma{
+  font-size: 12px;
+  font-weight: 500px;
+ }
+ .Figma{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar4 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills4 {
+  height: 10px;
+}
+
+.Figmadesign {
+  width: 47%; background-color: #5f0d70;
+}
+
+
+/* photoshop */
+.Photoshop{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar5 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills5 {
+  height: 10px;
+}
+
+.Adobephotoshop {
+  width: 87%; background-color: #5f0d70;
+}
+
+/* Userinterface */
+
+.UI{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar6 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills6 {
+  height: 10px;
+}
+
+.Userinterface {
+  width: 67%; background-color: #5f0d70;
+}
+
+/* national Language */
+/* .english */
+.nationallanguage{
+  color: #5f0d70;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500px;
+  text-align: left;
+}
+
+.Language1{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar7 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills7 {
+  height: 10px;
+}
+
+.english {
+  width: 87%; background-color: #5f0d70;
+}
+
+/* Hindi */
+
+.Language2{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar8 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills8 {
+  height: 10px;
+}
+
+.hindi {
+  width: 97%; background-color: #5f0d70;
+}
+
+/* korean */
+.Language3{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar9 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills9 {
+  height: 10px;
+}
+
+.korean {
+  width: 47%; background-color: #5f0d70;
+}
+
+/* French */
+.Language4{
+  color: #aaa6a6;
+  font-size: 12px;
+  font-weight: 450;
+  margin-top: 1%;
+
+ }
+ .skillbar10 {
+  width: 30%;
+  background-color: #ddd;
+  margin-top: -1.5%;
+  margin-left: 50%;
+}
+
+.skills10 {
+  height: 10px;
+}
+
+.French {
+  width: 27%; background-color: #5f0d70;
+}
+ /* <!-- -----------------------------------skills end------------------------------------ --> */
+ 
+ /* -------------------------------------------achivement start------------------------------->*/
+ .MBNSachievement{
+
+ color: #5f0d70;
+ margin-top: 20px;
+ text-align: right;
+ font-size: 12px;
+ font-weight: 500px;
+ text-align: left;
+ }
+ .experience1{
+  color: #5c5858;
+ 
+  margin-top: 1%;
+  font-size: 12px;
+  font-weight: 500;
+ }
+
+ a.downloadmbns{
+  text-decoration:none;
+  border: 1px solid rgb(95, 14, 75);
+  border-radius: 17px 17px;
+  display:block;
+  margin-top: 1.5%;
+  width: 15%;
+  color:white ;
+  background-color: #630c8f;
+  font-size: 13.5px;
+  text-align: center;
+  height: 25px;
+  padding: 2px;
+  margin-left: 1px;
+  font-weight: 400;
+  
+}
+a.downloadmbns:hover{
+  color: #630c8f;
+  background-color: #ffaa00;
+  transition: 0.3s;
+  border: none;
+  font-weight: 800;
+  font-size: 14px;
+  
+}
+
+.NGO{
+
+  color: #5f0d70;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500px;
+  text-align: left;
+  }
+ 
+.experience2{
+  color: #5c5858;
+ 
+  margin-top: 1%;
+  font-size: 12px;
+  font-weight: 500;
+ }
+
+ a.downloadmbns{
+  text-decoration:none;
+  border: 1px solid rgb(95, 14, 75);
+  border-radius: 17px 17px;
+  display:block;
+  margin-top: 1.5%;
+  width: 15%;
+  color:white ;
+  background-color: #630c8f;
+  font-size: 13.5px;
+  text-align: center;
+  height: 25px;
+  padding: 2px;
+  margin-left: 1px;
+  font-weight: 400;
+  
+}
+a.downloadmbns:hover{
+  color: #630c8f;
+  background-color: #ffaa00;
+  transition: 0.3s;
+  border: none;
+  font-weight: 800;
+  font-size: 14px;
+  
+}
+
+.Intership{
+  color: #5f0d70;
+  margin-top: 20px;
+  text-align: right;
+  font-size: 12px;
+  font-weight: 500px;
+  text-align: left;
+}
+.Experience3{
+  color: #5c5858;
+ 
+  margin-top: 1%;
+  font-size: 12px;
+  font-weight: 500;
+ }
+
+ .Experience4{
+  color: #5c5858;
+ 
+  margin-top: 0.2%;
+  font-size: 12px;
+  font-weight: 500;
+ }
+ .Experience5{
+  color: #5c5858;
+ 
+  margin-top: 0.2%;
+  font-size: 12px;
+  font-weight: 500;
+ }
+/* -------------------------------------------achivement end------------------------------->*/
+.sidebanner{
+  margin-top: 17%;
+  height: 90vh;
+  width: 12%;
+  margin-left: 2%;
+  background: #55087c;
+  border-radius: 13px 13px;
+  
+}
+.Fadeblack{
+  width: 200%;
+  position:static;
+ }
+
+a.connect{
+
+    text-decoration: none;
+    color: white;
+    border: 1px;
+    border-radius: 20px 20px;
+    background-color: rgba(255, 255, 255, 0.125);
+    height: 22px;
+    width: 111px;
+    text-align: center;
+    justify-content: center;
+    padding-top: 3.1px;
+    margin-top: 1%;
+    margin-left: 2%;
+    display: flex;
+    position: absolute;
+    font-size: 10.5px;
+}
+/* ----------------------------contact sidebanner start--------------------------- */
+.Contact{
+  color: white;
+  font-size: 12px ;
+  display: flex;
+  position: absolute;
+  margin-top: 5%;
+  margin-left: 4%;
+}
+.contact1{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 7%; 
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.Contact2{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 8.2%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.Contact3{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 9.5%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.Contact4{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 10.6%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+
+/* ----------------------------contact sidebanner end--------------------------- */
+
+
+/* ----------------------------------Social sidebanner start---------------------- */
+.Social{
+  color: white;
+  font-size: 12px ;
+  display: flex;
+  position: absolute;
+  margin-top: 15%;
+  margin-left: 2.7%;
+  display: flex;
+  position: absolute;
+}
+.social1{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 17%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.social2{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 18.2%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.social3{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 19.4%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.social4{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 20.7%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+/* ----------------------------------Social sidebanner end---------------------- */
+.Intrest{
+  color: white;
+  font-size: 12px ;
+  display: flex;
+  position: absolute;
+  margin-top: 24.5%;
+  margin-left: 3.8%;
+  display: flex;
+  position: absolute;
+}
+.Intrest1{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 27.2%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.Intrest2{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 28.2%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.Intrest3{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 29.2%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.Intrest4{
+  color: rgb(255, 255, 255);
+  font-size: 10.5px;
+  display: flex;
+  position: absolute;
+  margin-top: 30.2%;
+  font-weight: 300;
+  margin-left: 0.8%;
+}
+.QRCODE{
+  margin-top: 28em;
+  margin-left: 3em;
+  height: 50px;
+  width: 50px;
+  position: relative;
+}
+.scanhere{
+  color: rgb(175, 175, 175);
+  font-size: 10px;
+  display: flex;
+  position: absolute;
+  margin-top: 0%;
+  font-weight: 400;
+  margin-left: 3.6%;
+  display: flex;
+  position: absolute;
+}
+
+/* -------------------------------------------------------music appp start------------------------------------ */
+
+
+
+
+
+
+
+.Messagebox2{
+  height: 110px;
+ width: 195px;
+  margin-left:82.5%;
+  border-radius: 13px 13px;
+  background-image: linear-gradient(360deg, rgb(0, 0, 0),  #55087c);
+  border: 1px solid rgb(182, 179, 179);
+  margin-top: 5px;
+  position: relative;
+ }
+
+.Messagebox3{
+  height: 110px;
+ width: 195px;
+  margin-left:82.5%;
+  border-radius: 13px 13px;
+  background-image: linear-gradient(360deg, rgb(0, 0, 0),  #55087c);
+  border: 1px solid rgb(182, 179, 179);
+  margin-top: 6px;
+  position: relative;
+ }
+
+
+
+ .registrationform{
+  background-color: #55087c;
+  border-radius: 12px;
+  height: 320px;
+  width: 190px;
+  margin-top: -41%;
+  margin-left: 83.5%;
+  object-fit: cover;
+  display: flex;
+  position:absolute;
+  
+ }
+ .formbox{
+  color: rgb(255, 255, 255);
+  font-size: 10px;
+  margin-top:50px;
+  margin-left: 9px;
+  display: block;
+  position: absolute;
+  object-fit: cover;
+  
+ }
+ .textbox{
+  border: 1px;
+  border-radius: 5px 5px;
+ }
+ 
+ .sendbutton{
+  text-decoration: none;
+  color: white;
+  border: 1px;
+  border-radius: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.125);
+  height: 22px;
+  width: 111px;
+  text-align: center;
+  justify-content: center;
+  padding-top: 3.1px;
+  margin-top: 10%;
+  margin-left: 16%;
+  display: flex;
+  position: absolute;
+  font-size: 10.5px;
+ }
+
+ .sendbutton:hover{
+  box-shadow: 0px 15px 40px 5px #2c073f;
+  cursor: pointer;
+  transform: translateY(-10px);
+  border: px solid rgb(247, 247, 247);
+  background-image: url(Image/banner1.jpg);
+  transition: 0.9s;
+  opacity: 0.5;
+  display: flex;
+
+  position: absolute;
+}
+
+
+.message{
+  text-decoration: none;
+  color: white;
+
+  display: flex;
+  position: absolute;
+  border: 1px;
+  border-radius: 20px 20px;
+  background-color: rgba(255, 255, 255, 0.125);
+  height: 22px;
+  width: 135px;
+ 
+padding-left: 15px;
+padding-top: 4px;
+  margin-top: 8%;
+  margin-left: 13%;
+  font-size: 10.5px;
+  font-weight: 500;
+
+}
+
+
+.stroketext{
+  color: white;
+  font-size: 130px;
+  margin-top: -90px;
+  margin-left: 200px;
+  opacity: 0.1;
+  
+}
+
+
+
+.Footerbanner1{
+  margin-top: 28em;
+  height: 250px;
+  width: 100%;
+  background-color:rgb(0, 0, 0);
+
+}
+
+.content {
+  color: #5f0d70;
+  padding: 0;
+  margin: -155px auto;
+}
+
+.centerplease {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 40px;
+}
+
+/*Question*/
+.question {
+  position: relative;
+  margin: 0;
+  padding: 10px 10px 10px 50px;
+  display: block;
+  width:100%;
+  cursor: pointer;
+}
+/*Answer*/
+.answers {
+  padding: 0px 15px;
+  margin: -18px 0;
+  width:100%!important;
+  height: 0;
+  overflow: hidden;
+  position: relative;
+  color: rgb(255, 255, 255);
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+  font-size: 10px;
+  
+}
+
+.questions:checked ~ .answers{
+  height: auto;
+  opacity: 1;
+  padding: 15px;
+  
+}
+
+/*FAQ Toggle*/
+.plus {
+  position: absolute;
+  margin-left: 10px;
+  z-index: 5;
+  font-size: 2em;
+  line-height: 100%;
+  -webkit-user-select: none;    
+  -moz-user-select: none;
+  -ms-user-select: none;
+  -o-user-select: none;
+  user-select: none;
+  -webkit-transition: .3s ease;
+  -moz-transition: .3s ease;
+  -o-transition: .3s ease;
+  transition: .3s ease;
+
+}
+
+.questions:checked ~ .plus {
+  -webkit-transform: rotate(45deg);
+  -moz-transform: rotate(45deg);
+  -o-transform: rotate(45deg);
+  transform: rotate(45deg);
+
+}
+
+.questions {
+  display: none;
+  
+}
+
+
+
+.content2 {
+  color: #5f0d70;
+  padding: 0;
+  margin: 150px auto;
+}
+
+.centerplease2 {
+  margin: 0 auto;
+  max-width: 270px;
+  font-size: 40px;
+}
+
+/* ------------------------------LOWER BANNER BLACK --------------------------- */
+
+.backgroundborder{
+background-image: url("Image/black-image.jpg");
+padding-top: 7px;
+height:300px;
+padding-top: 10px;
+align-items: center;
+display: flex;
+object-fit: cover;
+ justify-content: center;
+}
+
+
+
+.readmore{
+  height:190px ;
+  width: 65%;
+  border: 1px solid  #ffffff;
+  position:static;
+  object-fit: cover;
+  border-radius: 21px;
+  justify-content: center;
+  display: block;
+
+}
+
+.chinesetextbig{
+  font-size: 20px;
+  background-image: url("v1.avif");
+  background-size: cover;
+  background-clip: text;
+  -webkit-background-clip: text;
+color: transparent;
+margin-bottom: -150px;
+margin-left: 1060px;
+display: block;
+
+
+position: absolute;
+
+
+}
+
+.extravibe{
+    transform: translate(-50%,-50%);
+    margin-left: 560px;
+    margin-top: -150px;
+    position: absolute;
+    font-family:unset;
+    letter-spacing:5px;
+    font-size:20px;
+    z-index: -1;
+    font-weight: 10;
+    background-image: linear-gradient(
+   to right,
+   #462523 0,
+          #cb9b51 22%, 
+   #f6e27a 45%,
+   #f6f2c0 50%,
+   #f6e27a 55%,
+   #cb9b51 78%,
+   #462523 100%
+   );
+    color:transparent;
+    -webkit-background-clip:text;
+ 
+ }
+  
+ .extravibe:hover{
+   color: rgb(255, 255, 255);
+   font-size: 90px;
+ }
+
+ /*---------------------------------------- MARQUE FOOTER BANNER */
+.whitefooter{
+  height: 30px;
+  width: 100%;
+  background-color: #ffffff;
+  color: #5f0d70;
+  padding-top: 5px;
+
+}
+.purpletext{
+  font-weight: 800;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+#blackboxbanner{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+  position: relative;
+  object-fit: cover;
+}
+
+#blackboxbanner div{
+  
+  align-items: center;
+  margin: 90px;
+  width: 170px;
+  height: 150px;
+align-content: center;
+margin-top: 19px;
+margin-left:40px;
+}
+
+.text01{
+  padding-top: 10px;
+  color: white;
+  font-size:12px;
+  
+  text-align: center;
+  
+}
+
+.paratext01{
+  padding-top: 20px;
+  color: white;
+  font-size:10px;
+  text-align: center;
+}
+
+.dynmaicbutton{
+  text-decoration: none;
+  color: white;
+  /* border: 1px solid white; */
+  border-radius: 5px 5px;
+  padding: 10px;
+  margin-left: 20px;
+  height: 70px;
+  letter-spacing: 2px;
+}
+a.dynmaicbutton:hover{
+  color: #000000;
+  background-color: #ffffff;
+  cursor: pointer;
+  transition: 0.9s;
+}
+
+.gamerimage{
+  height: 200px;
+  width: 300px;
+  margin-left: 2196.5px;
+  display: flex;
+  object-fit: cover;
+  margin-right:85%;
+  margin-top: -5%;
+  position:absolute;
+  
+}
+
+.connectwithme{
+  color: white;
+  margin-left: 20px;
+  font-size: 37px;
+  opacity: 0.7;
+}
+.heartimage{
+  margin-top: -250px;
+  height: 200px;
+  color: wheat;
+}
